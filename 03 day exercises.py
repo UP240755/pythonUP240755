@@ -54,19 +54,19 @@ print('division: ', div)
 print('remainder: ', remainder)
 
 
-
-radius = 10                                 
+import math
+radius = 30                                
 area_of_circle = 3.14 * radius ** 2        
 print('Area of a circle:', area_of_circle)
 
 
-length = 10
+length = 40
 width = 20
 area_of_rectangle = length * width
 print('Area of rectangle:', area_of_rectangle)
 
 " Calculating a weight of an object"
-mass = 75
+mass = 60
 gravity = 9.81
 weight = mass * gravity
 print(weight, 'N')
@@ -78,12 +78,12 @@ print(2 < 3)
 print(2 <= 3)   
 print(3 == 2)    
 print(3 != 2)  
-print(len('mango') == len('avocado')) 
-print(len('mango') != len('avocado')) 
-print(len('mango') < len('avocado')) 
-print(len('milk') != len('meat'))     
-print(len('milk') == len('meat'))      
-print(len('tomato') == len('potato'))  
+print(len('mango') == len('aguacate')) 
+print(len('mango') != len('aguacate')) 
+print(len('mango') < len('aguacate')) 
+print(len('leche') != len('carne'))     
+print(len('leche') == len('carne'))      
+print(len('jitomate') == len('papa'))  
 print(len('python') > len('dragon'))   
 
 "comparison"
