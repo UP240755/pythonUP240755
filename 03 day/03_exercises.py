@@ -1,20 +1,19 @@
+print('Suma: ', 1 + 2)
+print('Resta: ', 2 - 1)
+print('Multiplicación: ', 2 * 3)
+print('División: ', 4 / 2)                      
+print('División: ', 6 / 2)
+print('División: ', 7 / 2)
+print('División sin el residuo: ', 7 // 2)
+print('Módulo: ', 3 % 2)                     
+print('División sin el residuo: ', 7 // 3)
+print('Exponencial: ', 3 ** 2)              
 
-print('Addition: ', 1 + 2)
-print('Subtraction: ', 2 - 1)
-print('Multiplication: ', 2 * 3)
-print ('Division: ', 4 / 2)                      
-print('Division: ', 6 / 2)
-print('Division: ', 7 / 2)
-print('Division without the remainder: ', 7 // 2)
-print('Modulus: ', 3 % 2)                     
-print ('Division without the remainder: ', 7 // 3)
-print('Exponential: ', 3 ** 2)              
+print('Número flotante, PI', 3.14)
+print('Número flotante, gravedad', 9.81)
 
-print('Floating Number,PI', 3.14)
-print('Floating Number, gravity', 9.81)
-
-print('Complex number: ', 1 + 1j)
-print('Multiplying complex number: ',(1 + 1j) * (1-1j))
+print('Número complejo: ', 1 + 1j)
+print('Multiplicación de números complejos: ', (1 + 1j) * (1 - 1j))
 
 
 a = 3 
@@ -37,7 +36,7 @@ print('a % b = ', remainder)
 print('a // b = ', floor_division)
 print('a ** b = ', exponential)
 
-"Declaring values and organizing them together"
+"Declarando valores y organizándolos juntos"
 num_one = 3
 num_two = 4
 
@@ -48,24 +47,24 @@ div = num_two / num_two
 remainder = num_two % num_one
 
 print('total: ', total)
-print('difference: ', diff)
-print('product: ', product)
-print('division: ', div)
-print('remainder: ', remainder)
+print('diferencia: ', diff)
+print('producto: ', product)
+print('división: ', div)
+print('residuo: ', remainder)
 
 
 import math
 radius = 30                                
 area_of_circle = 3.14 * radius ** 2        
-print('Area of a circle:', area_of_circle)
+print('Área de un círculo:', area_of_circle)
 
 
 length = 40
 width = 20
 area_of_rectangle = length * width
-print('Area of rectangle:', area_of_rectangle)
+print('Área del rectángulo:', area_of_rectangle)
 
-" Calculating a weight of an object"
+"Calculando el peso de un objeto"
 mass = 60
 gravity = 9.81
 weight = mass * gravity
@@ -86,21 +85,21 @@ print(len('leche') == len('carne'))
 print(len('jitomate') == len('papa'))  
 print(len('python') > len('dragon'))   
 
-"comparison"
+"Comparación"
 print('True == True: ', True == True)
 print('True == False: ', True == False)
 print('False == False:', False == False)
-print('True and True: ', True and True)
-print('True or False:', True or False)
+print('True y True: ', True and True)
+print('True o False:', True or False)
 
 
-print('1 is 1', 1 is 1)                 
-print('1 is not 2', 1 is not 2)         
-print('A in Steven', 'A' in 'Steven') 
-print('B in Steven', 'B' in 'Steven')
-print('coding' in 'coding for all') 
-print('a in an:', 'a' in 'an')     
-print('4 is 2 ** 2:', 4 is 2 ** 2)  
+print('1 es 1', 1 is 1)                 
+print('1 no es 2', 1 is not 2)         
+print('A en Steven', 'A' in 'Steven') 
+print('B en Steven', 'B' in 'Steven')
+print('coding en "coding for all"', 'coding' in 'coding for all') 
+print('"a" en "an":', 'a' in 'an')     
+print('4 es 2 ** 2:', 4 is 2 ** 2)  
 print(3 > 2 and 4 > 3) 
 print(3 > 2 and 4 < 3) 
 print(3 < 2 and 4 < 3) 
@@ -111,4 +110,4 @@ print(not 3 > 2)
 print(not True)      
 print(not False)     
 print(not not True)  
-print(not not False) 
+print(not not False)
