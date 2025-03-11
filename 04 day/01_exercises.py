@@ -117,5 +117,24 @@ print(' # '.join(librerias_python))
 print("I am enjoying this challenge.\nI just wonder what is next.")
 
 #Utilizar una secuencia de escape de tabulación para escribir las siguientes líneas.
-Name      Age     Country   City
-Asabeneh  250     Finland   Helsinki
+"#Name      Age     Country   City"
+"#Asabeneh  250     Finland   Helsinki"
+print("Name.\nAge.\nCountry.\nCity.\nAsabeneh.\n250.\nFinland.\nHelsinki.")
+
+#Utilice el método de formato de cadena para mostrar lo siguiente:
+radius = 10
+Radio = "Radius"
+area = 3.14 * radius ** 2
+Total = 314
+Area = "area"
+La= "The"
+de= "of"
+Un="a"
+Circulo= "circle"
+Con="With"
+Es="is"
+Metros="Meters"
+cuadrados= "Square"
+#area of a circle with radius 10 is 314 meters square.
+string3= La + Area + de + Un + Circulo + Con + Radio + radius + Es + Total + Metros + cuadrados
+print (string3)
