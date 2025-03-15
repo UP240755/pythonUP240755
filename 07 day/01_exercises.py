@@ -1,5 +1,6 @@
 # Definir un conjunto de empresas de TI
 it_companies = {"Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"}
+print(it_companies)
 
 # Encuentra la longitud del conjunto it_companies
 print("Longitud del conjunto:", len(it_companies))

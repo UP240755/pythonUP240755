@@ -1,0 +1,33 @@
+# Solicitar la edad del usuario
+edad = int(input("Ingrese su edad: "))
+
+# Verificar si tiene edad suficiente para conducir
+if edad >= 18:
+    print("Tienes edad suficiente para conducir.")
+else:
+    años_faltantes = 18 - edad
+    print(f"Te faltan {años_faltantes} año{'s' if años_faltantes > 1 else ''} para aprender a conducir.")
+
+# Comparar edades
+mi_edad = 25  # Puedes cambiar esto por tu edad real
+tu_edad = int(input("\nIngrese su edad: "))
+
+if tu_edad > mi_edad:
+    diferencia = tu_edad - mi_edad
+    print(f"Eres {diferencia} año{'s' if diferencia > 1 else ''} mayor que yo.")
+elif tu_edad < mi_edad:
+    diferencia = mi_edad - tu_edad
+    print(f"Soy {diferencia} año{'s' if diferencia > 1 else ''} mayor que tú.")
+else:
+    print("Tenemos la misma edad")
+
+# Comparar dos números ingresados por el usuario
+a = int(input("\nIngrese el primer número: "))
+b = int(input("Ingrese el segundo número: "))
+
+if a > b:
+    print(f"{a} es mayor que {b}")
+elif a < b:
+    print(f"{a} es menor que {b}")
+else:
+    print(f"{a} es igual a {b}")
